@@ -13,6 +13,11 @@ class TableViewControllerCellTableViewCell: UITableViewCell {
     @IBOutlet var imageBox: UIImageView!
     @IBOutlet var movieName: UILabel!
     
+    @IBOutlet var runtimeMin: UILabel!
+    //@IBOutlet var descriptionView: UITextView!
+    @IBOutlet var summary: UILabel!
+    @IBOutlet var rateLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

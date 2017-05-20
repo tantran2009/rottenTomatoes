@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48113980AF88D5809830DA18 /* Pods_RottenTomatos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 833E836078E1175EBB3D00C1 /* Pods_RottenTomatos.framework */; };
+		C511D9EB1ECED8E600D9CA99 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C511D9EA1ECED8E600D9CA99 /* DetailViewController.swift */; };
+		C51975041ECC398800F45FA0 /* Oxygen-Icons.org-Oxygen-Actions-rating.ico in Resources */ = {isa = PBXBuildFile; fileRef = C51975031ECC398800F45FA0 /* Oxygen-Icons.org-Oxygen-Actions-rating.ico */; };
 		C51DF79F1ECAA64F00206E0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51DF79E1ECAA64F00206E0A /* AppDelegate.swift */; };
 		C51DF7A11ECAA64F00206E0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51DF7A01ECAA64F00206E0A /* ViewController.swift */; };
 		C51DF7A41ECAA64F00206E0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C51DF7A21ECAA64F00206E0A /* Main.storyboard */; };
@@ -16,6 +19,8 @@
 		C51DF7BF1ECAA64F00206E0A /* RottenTomatosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51DF7BE1ECAA64F00206E0A /* RottenTomatosUITests.swift */; };
 		C51DF7CD1ECAA84E00206E0A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51DF7CC1ECAA84E00206E0A /* TableViewController.swift */; };
 		C51DF7CF1ECAEC0900206E0A /* TableViewControllerCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C51DF7CE1ECAEC0900206E0A /* TableViewControllerCellTableViewCell.swift */; };
+		C551056C1ECD87E80069468D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C551056B1ECD87E80069468D /* Product.swift */; };
+		C591B9EE1ECC648B00F75D52 /* alarm-clock-2-xxl.png in Resources */ = {isa = PBXBuildFile; fileRef = C591B9ED1ECC648B00F75D52 /* alarm-clock-2-xxl.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		505333F15BE6A4E9E0131FC7 /* Pods-RottenTomatos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RottenTomatos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RottenTomatos/Pods-RottenTomatos.debug.xcconfig"; sourceTree = "<group>"; };
+		71AE2AC6A481FE6E3AA1762A /* Pods-RottenTomatos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RottenTomatos.release.xcconfig"; path = "Pods/Target Support Files/Pods-RottenTomatos/Pods-RottenTomatos.release.xcconfig"; sourceTree = "<group>"; };
+		833E836078E1175EBB3D00C1 /* Pods_RottenTomatos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RottenTomatos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C511D9EA1ECED8E600D9CA99 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C51975031ECC398800F45FA0 /* Oxygen-Icons.org-Oxygen-Actions-rating.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = "Oxygen-Icons.org-Oxygen-Actions-rating.ico"; sourceTree = "<group>"; };
 		C51DF79B1ECAA64F00206E0A /* RottenTomatos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RottenTomatos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C51DF79E1ECAA64F00206E0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C51DF7A01ECAA64F00206E0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		C51DF7C01ECAA64F00206E0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C51DF7CC1ECAA84E00206E0A /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		C51DF7CE1ECAEC0900206E0A /* TableViewControllerCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerCellTableViewCell.swift; sourceTree = "<group>"; };
+		C551056B1ECD87E80069468D /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C591B9ED1ECC648B00F75D52 /* alarm-clock-2-xxl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alarm-clock-2-xxl.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48113980AF88D5809830DA18 /* Pods_RottenTomatos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +91,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74906A185F45343752F6444E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				833E836078E1175EBB3D00C1 /* Pods_RottenTomatos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0A5E7936E2B234169398395 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				505333F15BE6A4E9E0131FC7 /* Pods-RottenTomatos.debug.xcconfig */,
+				71AE2AC6A481FE6E3AA1762A /* Pods-RottenTomatos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C51DF7921ECAA64F00206E0A = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +115,8 @@
 				C51DF7B21ECAA64F00206E0A /* RottenTomatosTests */,
 				C51DF7BD1ECAA64F00206E0A /* RottenTomatosUITests */,
 				C51DF79C1ECAA64F00206E0A /* Products */,
+				A0A5E7936E2B234169398395 /* Pods */,
+				74906A185F45343752F6444E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,9 +138,13 @@
 				C51DF7A21ECAA64F00206E0A /* Main.storyboard */,
 				C51DF7CE1ECAEC0900206E0A /* TableViewControllerCellTableViewCell.swift */,
 				C51DF7CC1ECAA84E00206E0A /* TableViewController.swift */,
+				C511D9EA1ECED8E600D9CA99 /* DetailViewController.swift */,
+				C551056B1ECD87E80069468D /* Product.swift */,
 				C51DF7A51ECAA64F00206E0A /* Assets.xcassets */,
 				C51DF7A71ECAA64F00206E0A /* LaunchScreen.storyboard */,
 				C51DF7AA1ECAA64F00206E0A /* Info.plist */,
+				C51975031ECC398800F45FA0 /* Oxygen-Icons.org-Oxygen-Actions-rating.ico */,
+				C591B9ED1ECC648B00F75D52 /* alarm-clock-2-xxl.png */,
 			);
 			path = RottenTomatos;
 			sourceTree = "<group>";
@@ -138,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C51DF7C31ECAA64F00206E0A /* Build configuration list for PBXNativeTarget "RottenTomatos" */;
 			buildPhases = (
+				2203D1C1F799A5E281CED6A4 /* [CP] Check Pods Manifest.lock */,
 				C51DF7971ECAA64F00206E0A /* Sources */,
 				C51DF7981ECAA64F00206E0A /* Frameworks */,
 				C51DF7991ECAA64F00206E0A /* Resources */,
+				F0050A489FE1EFE89BDE7011 /* [CP] Embed Pods Frameworks */,
+				F191694C0B3B0D4C9D5E542D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,8 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C51DF7A91ECAA64F00206E0A /* LaunchScreen.storyboard in Resources */,
+				C591B9EE1ECC648B00F75D52 /* alarm-clock-2-xxl.png in Resources */,
 				C51DF7A61ECAA64F00206E0A /* Assets.xcassets in Resources */,
 				C51DF7A41ECAA64F00206E0A /* Main.storyboard in Resources */,
+				C51975041ECC398800F45FA0 /* Oxygen-Icons.org-Oxygen-Actions-rating.ico in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,13 +301,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2203D1C1F799A5E281CED6A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F0050A489FE1EFE89BDE7011 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RottenTomatos/Pods-RottenTomatos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F191694C0B3B0D4C9D5E542D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RottenTomatos/Pods-RottenTomatos-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C51DF7971ECAA64F00206E0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C551056C1ECD87E80069468D /* Product.swift in Sources */,
 				C51DF7A11ECAA64F00206E0A /* ViewController.swift in Sources */,
 				C51DF7CD1ECAA84E00206E0A /* TableViewController.swift in Sources */,
+				C511D9EB1ECED8E600D9CA99 /* DetailViewController.swift in Sources */,
 				C51DF79F1ECAA64F00206E0A /* AppDelegate.swift in Sources */,
 				C51DF7CF1ECAEC0900206E0A /* TableViewControllerCellTableViewCell.swift in Sources */,
 			);
@@ -418,6 +509,7 @@
 		};
 		C51DF7C41ECAA64F00206E0A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 505333F15BE6A4E9E0131FC7 /* Pods-RottenTomatos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RottenTomatos/Info.plist;
@@ -430,6 +522,7 @@
 		};
 		C51DF7C51ECAA64F00206E0A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71AE2AC6A481FE6E3AA1762A /* Pods-RottenTomatos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RottenTomatos/Info.plist;
@@ -513,6 +606,7 @@
 				C51DF7C51ECAA64F00206E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C51DF7C61ECAA64F00206E0A /* Build configuration list for PBXNativeTarget "RottenTomatosTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +615,7 @@
 				C51DF7C81ECAA64F00206E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C51DF7C91ECAA64F00206E0A /* Build configuration list for PBXNativeTarget "RottenTomatosUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +624,7 @@
 				C51DF7CB1ECAA64F00206E0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
